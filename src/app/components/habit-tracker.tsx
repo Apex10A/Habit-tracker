@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from "react";
 import {
   LineChart,
@@ -16,9 +17,7 @@ import {
   Pie,
   Cell,
 } from "recharts";
-import { BarChart2 } from "lucide-react"; 
-import { Bell } from 'lucide-react';
-import { Settings2 } from 'lucide-react';
+import { BarChart2, Bell, Settings2 } from "lucide-react"; 
 import { motion, AnimatePresence } from "framer-motion";
 
 
